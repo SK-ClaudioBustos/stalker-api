@@ -67,6 +67,7 @@ export class ModificationService {
           juego,
         },
         select: {
+          id: true,
           titulo: true,
           portadaPath: true,
         },
