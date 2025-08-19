@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum TipoEnum {
+  HISTORIA
+  VANILLA_MOD
+  FREEPLAY
+}
+
+enum JuegoEnum {
+  SHADOW_OF_CHERNOBYL
+  CLEAR_SKY
+  CALL_OF_PRYPIAT
+}
+
+type EnlaceMetadata {
+  url   String
+  texto String
+}
+
+model modifications {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+
+  titulo String
+
+  autor String
+
+  sinopsis String
+
+  tipo TipoEnum
+
+  juego JuegoEnum
+
+  traduccion String
+
+  fecha_lanzamiento String
+
+  descripcion String
+
+  caracteristicas String[]
+
+  enlaces EnlaceMetadata[]
+
+  isStandalone Boolean @default(false)
+
+  imagenesGaleria String[]
+
+  portadaPath String
+
+  aclaraciones String[] @default([])
+
+  pasosInstalacion String[] @default([])
+}
