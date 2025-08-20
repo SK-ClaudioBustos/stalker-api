@@ -1,5 +1,11 @@
-import { Injectable, Logger } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  Logger,
+  NotFoundException,
+} from '@nestjs/common';
 import { JuegoEnum, modifications, TipoEnum } from 'generated/prisma';
+import { ObjectId } from 'mongodb';
 import { PrismaService } from 'src/prisma/prisma.service';
 import MODS from './data/mods';
 
@@ -82,6 +88,36 @@ export class ModificationService {
         [error],
         'Ocurrio un error al obtener las modificaciones',
       );
+    }
+  }
+
+  async getModification(
+    id: string,
+  ): Promise<{ modification: modifications | null }> {
+    try {
+      if (!ObjectId.isValid(id)) {
+        throw new BadRequestException('El ID proporcionado no es valido');
+      }
+
+      const modification: modifications | null =
+        await this.prisma.modifications.findUnique({
+          where: { id },
+        });
+
+      if (!modification) {
+        this.logger.warn(
+          'No se encontro la modificacion con el id proporcionado',
+        );
+        throw new NotFoundException(`Modificación con ID ${id} no encontrada`);
+      }
+
+      return { modification };
+    } catch (error) {
+      this.logger.error(
+        [error, id],
+        'Ocurrio un error al obtener la modificacion',
+      );
+      return { modification: null };
     }
   }
 }
