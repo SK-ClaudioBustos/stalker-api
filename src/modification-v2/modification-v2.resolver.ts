@@ -1,6 +1,12 @@
 import { Args, Query, Resolver } from '@nestjs/graphql';
-import { ModificationsListOutput } from './dto/modification.types';
-import { FindModificationsParams } from './dto/modifications.input';
+import {
+  ModificationData,
+  ModificationsListOutput,
+} from './dto/modification.types';
+import {
+  FindModificationById,
+  FindModificationsParams,
+} from './dto/modifications.input';
 import { ModificationV2Service } from './modification-v2.service';
 
 @Resolver()
@@ -13,5 +19,13 @@ export class ModificationV2Resolver {
     params: FindModificationsParams,
   ) {
     return this.modificationService.getModifications(params);
+  }
+
+  @Query(() => ModificationData)
+  async getModification(
+    @Args('args', { type: () => FindModificationById })
+    args: FindModificationById,
+  ) {
+    return this.modificationService.getModification(args);
   }
 }

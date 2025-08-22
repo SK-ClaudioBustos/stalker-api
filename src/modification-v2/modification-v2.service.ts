@@ -3,11 +3,19 @@ import {
   Injectable,
   InternalServerErrorException,
   Logger,
+  NotFoundException,
 } from '@nestjs/common';
 import { JuegoEnum, TipoEnum } from 'generated/prisma';
 import { PrismaService } from 'src/prisma/prisma.service';
-import { ModificationsListOutput } from './dto/modification.types';
-import { FindModificationsParams } from './dto/modifications.input';
+import {
+  ModificationData,
+  ModificationsListOutput,
+} from './dto/modification.types';
+import {
+  FindModificationById,
+  FindModificationsParams,
+} from './dto/modifications.input';
+import { ObjectId } from 'mongodb';
 
 @Injectable()
 export class ModificationV2Service {
@@ -26,7 +34,7 @@ export class ModificationV2Service {
     if (!validJuegoValues.includes(juego) || !validTipoValues.includes(tipo)) {
       throw new BadRequestException('Valores inválidos para juego o tipo');
     }
-    
+
     try {
       this.logger.verbose({
         operacion: 'getModifications',
@@ -58,6 +66,36 @@ export class ModificationV2Service {
       );
       throw new InternalServerErrorException(
         'Error al obtener las modificaciones',
+      );
+    }
+  }
+
+  async getModification(args: FindModificationById) {
+    const { id } = args;
+    try {
+      if (!ObjectId.isValid(id)) {
+        throw new BadRequestException('El ID proporcionado no es valido');
+      }
+
+      const modification: ModificationData | null =
+        await this.prisma.modifications.findUnique({
+          where: { id },
+        });
+
+      if (!modification) {
+        this.logger.warn(
+          'No se encontro la modificacion con el id proporcionado',
+        );
+        throw new NotFoundException(`Modificación con ID ${id} no encontrada`);
+      }
+      return modification;
+    } catch (error) {
+      this.logger.error(
+        [error, id],
+        'Ocurrio un error al obtener la modificacion',
+      );
+      throw new InternalServerErrorException(
+        `No se pudo recuperar la modificacion ${error.message}`,
       );
     }
   }
