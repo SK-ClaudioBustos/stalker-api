@@ -88,6 +88,10 @@ export class ModificationService {
         [error],
         'Ocurrio un error al obtener las modificaciones',
       );
+      return {
+        data: [],
+        count: 0,
+      }
     }
   }
 
