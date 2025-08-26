@@ -17,6 +17,7 @@ import { join } from 'path';
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'src/graphql/schema.gql'),
       graphiql: true,
+      introspection: true,
     }),
     ConfigModule.forRoot({
       isGlobal: true,
