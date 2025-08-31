@@ -1,10 +1,8 @@
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { APP_FILTER } from '@nestjs/core';
 import { GraphQLModule } from '@nestjs/graphql';
 import { join } from 'path';
-import { CustomExceptionHandlerFilter } from './filters/custom-exception-handler.filter';
 import { ModificationV2Module } from './modification-v2/modification-v2.module';
 import { ModificationV2Resolver } from './modification-v2/modification-v2.resolver';
 import { ModificationV2Service } from './modification-v2/modification-v2.service';
@@ -26,13 +24,6 @@ import { PrismaModule } from './prisma/prisma.module';
     ModificationV2Module,
   ],
   controllers: [],
-  providers: [
-    ModificationV2Resolver,
-    ModificationV2Service,
-    {
-      provide: APP_FILTER,
-      useClass: CustomExceptionHandlerFilter,
-    },
-  ],
+  providers: [ModificationV2Resolver, ModificationV2Service],
 })
 export class AppModule {}

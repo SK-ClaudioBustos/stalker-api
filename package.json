@@ -18,7 +18,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "generate": "pnpx prisma generate && pnpm prisma db push",
+    "generate": "pnpx prisma generate",
+    "generate-push": "pnpx prisma generate && pnpm prisma db push",
     "init": "pnpx prisma generate && pnpm prisma db push && nest build"
   },
   "dependencies": {
