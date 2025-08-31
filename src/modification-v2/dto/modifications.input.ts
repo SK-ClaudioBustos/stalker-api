@@ -1,5 +1,5 @@
 import { Field, ID, InputType, registerEnumType } from '@nestjs/graphql';
-import { IsEnum, IsMongoId } from 'class-validator';
+import { IsBoolean, IsEnum, IsMongoId, IsOptional } from 'class-validator';
 import { JuegoEnum, TipoEnum } from 'generated/prisma';
 
 registerEnumType(JuegoEnum, {
@@ -21,6 +21,11 @@ export class FindModificationsParams {
   @Field(() => TipoEnum)
   @IsEnum(TipoEnum)
   tipo: TipoEnum;
+
+  @Field(() => Boolean, { nullable: true })
+  @IsBoolean()
+  @IsOptional()
+  isStandalone?: boolean;
 }
 
 @InputType()

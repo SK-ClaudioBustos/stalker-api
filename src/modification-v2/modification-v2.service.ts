@@ -27,7 +27,7 @@ export class ModificationV2Service {
   async getModifications(
     params: FindModificationsParams,
   ): Promise<ModificationsListOutput> {
-    const { juego, tipo } = params;
+    const { juego, tipo, isStandalone } = params;
     const validJuegoValues = Object.values(JuegoEnum);
     const validTipoValues = Object.values(TipoEnum);
 
@@ -41,12 +41,14 @@ export class ModificationV2Service {
         variables: {
           tipo,
           juego,
+          isStandalone,
         },
       });
       const results = await this.prisma.modifications.findMany({
         where: {
           tipo,
           juego,
+          isStandalone
         },
         select: {
           id: true,
