@@ -16,6 +16,9 @@ import { PrismaModule } from './prisma/prisma.module';
       autoSchemaFile: join(process.cwd(), 'src/graphql/schema.gql'),
       graphiql: true,
       introspection: true,
+      subscriptions: {
+        'graphql-ws': true,
+      },
     }),
     ConfigModule.forRoot({
       isGlobal: true,

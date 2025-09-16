@@ -84,3 +84,10 @@ export class ModificationData {
   @Field(() => [String])
   pasosInstalacion: string[];
 }
+
+
+@ObjectType()
+export class NotificationContent {
+  @Field(() => String)
+  content: string;
+}

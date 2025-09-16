@@ -1,13 +1,17 @@
-import { Args, Query, Resolver } from '@nestjs/graphql';
+import { Args, Query, Resolver, Subscription } from '@nestjs/graphql';
+import { PubSub } from 'graphql-subscriptions';
 import {
   ModificationData,
   ModificationsListOutput,
+  NotificationContent,
 } from './dto/modification.types';
 import {
   FindModificationById,
   FindModificationsParams,
 } from './dto/modifications.input';
 import { ModificationV2Service } from './modification-v2.service';
+
+const pubSub = new PubSub();
 
 @Resolver()
 export class ModificationV2Resolver {
@@ -18,7 +22,13 @@ export class ModificationV2Resolver {
     @Args('params', { type: () => FindModificationsParams })
     params: FindModificationsParams,
   ) {
-    return this.modificationService.getModifications(params);
+    const modifications = this.modificationService.getModifications(params);
+    await pubSub.publish('notification', {
+      notification: {
+        content: 'Obteniendo modificaciones...',
+      },
+    });
+    return modifications;
   }
 
   @Query(() => ModificationData)
@@ -27,5 +37,12 @@ export class ModificationV2Resolver {
     args: FindModificationById,
   ) {
     return this.modificationService.getModification(args);
+  }
+
+  @Subscription(() => NotificationContent, {
+    name: 'notification',
+  })
+  suscribeToNotification() {
+    return pubSub.asyncIterableIterator('notification');
   }
 }
