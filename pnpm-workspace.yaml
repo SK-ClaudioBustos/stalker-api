@@ -1,5 +1,0 @@
-onlyBuiltDependencies:
-  - '@apollo/protobufjs'
-  - '@nestjs/core'
-  - '@prisma/client'
-  - '@scarf/scarf'
