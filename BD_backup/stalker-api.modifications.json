@@ -1,0 +1,789 @@
+[{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6ea"
+  },
+  "autor": "Artistpavel, Argus, Trojanuch, Sergy172",
+  "descripcion": "Una de las modificaciones mas recomendadas si buscas rejugar la saga \n                  con un lavado de cara sin sufrir cambios significativos. Un mod totalmente grafico \n                  que añade una experiencia visualmente actualizada sin pedir muchos, siendo \n                  accesible para la mayoria de usuarios. Entre lo mas destacado se añade Iluminación \n                  natural, amplias vistas panorámicas, profundidad de campo, mapeo de paralaje, \n                  SSAO, Más de 900 archivos de texturas reelaborados, incluidos vehículos y conjuntos \n                  de armaduras con edición manual de relieve.",
+  "fecha_lanzamiento": "2009 - Ultima actualización  9/04/2025",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/vanilla_mods/01",
+  "sinopsis": "Eres rescatado luego de un accidente en los camiones de la muerte, tras \n               despertar has perdido la memoria y tu única pista es tu PDA con la misión de matar \n               a un tal Strelok. La búsqueda por recuperar la memoria y encontrar a Strelok te lleva \n               a recorrer la Zona de exclusión.",
+  "tipo": "VANILLA_MOD",
+  "traduccion": "Vanilla",
+  "titulo": "Shadow Of Chernobyl Complete mod 1.5",
+  "aclaraciones": [
+    "El mod requiere tener Shadow of Chernobyl ya que se toma el juego base para aplicar las mejoras.",
+    "Se deja un tutorial del camrada OmegaKira  para instalarlo."
+  ],
+  "caracteristicas": [
+    "Mejoras en la transisión de Noche y Día.",
+    "Distancia de dibujado y vistas ampliadas.",
+    "Nuevo diseño de Luna en multifase.",
+    "Recreación de objetos especiales.",
+    "Iluminación de alto rango dinámico mejorada y efectos solares.",
+    "Aumento de los ciclos meteorológicos y variedad climática.",
+    "Superficies mojadas durante la lluvia.",
+    "Mapa de constelaciones nocturnas de alta resolución.",
+    "Animaciones de agua mejoradas.",
+    "Texturas de alta resolución.",
+    "Vegetación mejorada.",
+    "Añade SSAO Mejorado.",
+    "Agrega un sitema de particulas.",
+    "Fuego dinámico.",
+    "Mejoras en la I.A.",
+    "Corrección de bugs.",
+    "Mejoras en sonido."
+  ],
+  "enlaces": [
+    {
+      "texto": "Tutorial",
+      "url": "https://www.youtube.com/watch?v=vZgvQkzbRFY"
+    },
+    {
+      "texto": "Pagina oficial",
+      "url": "https://www.moddb.com/mods/stalker-complete-2009"
+    },
+    {
+      "texto": "Complete Mod 1.5",
+      "url": "https://www.moddb.com/mods/stalker-complete-2009/downloads/stalker-complete-15"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/vanilla_mods/01/1",
+    "SOC/vanilla_mods/01/2",
+    "SOC/vanilla_mods/01/3",
+    "SOC/vanilla_mods/01/4"
+  ],
+  "isStandalone": false,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6eb"
+  },
+  "autor": "Autumnal Wanderers",
+  "descripcion": "La segunda versión de Autumn Aurora ahora trae la atmósfera otoñal a \n      la Zona y revisa por completo los gráficos, el sonido y la jugabilidad de S.T.A.L.K.E.R.  \n      Shadow of Chernobyl. El mod se basa en el Proyecto de recuperación de zonas más \n      nuevo, contiene AtmosFear oficial para SoC que nunca antes se había lanzado, el \n      mismo ha sido ampliamente rediseñado para que coincida con el estilo de otoño. \n      También tiene un nuevo Absolute Nature oficial para ShoC (nunca lanzado como \n      independiente) con nuevos modelos de árbol de AN3 CoP. El mod es la oportunidad \n      perfecta para todos los fans de S.T.A.L.K.E.R. a sumergirse nuevamente en la Zona \n      con un estilo completamente diferente. ",
+  "fecha_lanzamiento": "2014",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/vanilla_mods/02",
+  "sinopsis": "Eres rescatado luego de un accidente en los camiones de la muerte, tras \n      despertar has perdido la memoria y tu única pista es tu PDA con la misión de matar \n      a un tal Strelok. La búsqueda por recuperar la memoria y encontrar a Strelok te lleva \n      a recorrer la Zona de exclusión.",
+  "tipo": "VANILLA_MOD",
+  "traduccion": "Davoker (basada en wardust)",
+  "titulo": "Autumn aurora",
+  "aclaraciones": [
+    "Nota del traductor: es una mejora y ampliación de la traducción a Español del mod \n       Autumn Aurora 2.1 del usuario \"wardust\", es la traducción completa y no se \n       necesita la original. Solo copiar la carpeta \"gamedata\" en el directorio principal del \n       juego, sobrescribís cuando lo pida, sin miedo y  listo.",
+    "Importante: Normalmente el mod cambia los audios a ruso pero revisando en otras \n       páginas llegue a encontrar un comentario en inglés para eliminar los audios del mod: \n       \"Elimine (o cambie el nombre) del contenido de la carpeta Gamedata\\Sounds\n       \\Characters_voice EXCEPTO: Gamedata\\Sounds\\Characters_voices\\scenario\\bar\n       \\radio_music Gamedata\\Sounds\\Characters_voice\\scenario\\megafon \n       Gamedata\\Sounds\\Characters_voice\\scenario\\video\\aa2_splash( dos archivos con _l \n       y _r) Alternativamente, descomprima esta carpeta de sus datos de juego y cópiela.\""
+  ],
+  "caracteristicas": [
+    "Mejoras gráficas, de sonido y jugabilidad.",
+    "Nuevas Zonas.",
+    "Añade Atmosfear con estación de otoño.",
+    "Agrega Absolute Nature."
+  ],
+  "enlaces": [
+    {
+      "texto": "Tráiler",
+      "url": "https://www.youtube.com/watch?v=yGhV5w9‐KSE"
+    },
+    {
+      "texto": "Mod",
+      "url": "https://www.moddb.com/mods/autumn-aurora-compilation-mod/downloads/autumn-aurora-21-by-autumnal-wanderers?fbclid=IwAR1bqCT7b_88h8GOx5V6vTyBgEpfN01EK5ndDZYJMM8ww4cRP75vjmQKhkY"
+    },
+    {
+      "texto": "Traducción al español",
+      "url": "https://www.moddb.com/games/stalker/downloads/traduccin-a-espaol-de-autumn-aurora-21-ampliada?fbclid=IwAR0vassQ4_REdTEnrUSf675hwT0rXM6ih_mOTB-NOySuRS6fz0S-I367Mpk"
+    },
+    {
+      "texto": "Modelos HD",
+      "url": "https://www.moddb.com/mods/shadow-of-chernobyl-hd-models-addon/downloads/shoc-hd-models-addon?fbclid=IwAR1u8zv8UH85Mpn10eFAveS2822rAmCcp2qrqL33h26vCqwbdw9vMYeUb9g"
+    },
+    {
+      "texto": "Texturas opcionales para los brazos de marcado",
+      "url": "https://www.moddb.com/games/stalker/addons/better-hands-for-autumn-aurora-21?fbclid=IwAR0P8g05glQ3sfDJ5aQdsEMG1q1BIiXUXIYI8NP--dDjngKaGtHOkmjRTTg"
+    },
+    {
+      "texto": "Addon para restablecer el hud",
+      "url": "https://www.moddb.com/games/stalker/addons/vanilla-hud-info-for-autumn-aurora-21?fbclid=IwAR1o9yUGRSJeg0E39xpo8x7vaeUj5Lw6e_IJLS7uWMDym9dgrTjSuQ5ESxA"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/vanilla_mods/02/1",
+    "SOC/vanilla_mods/02/2",
+    "SOC/vanilla_mods/02/3",
+    "SOC/vanilla_mods/02/4"
+  ],
+  "isStandalone": false,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6ec"
+  },
+  "autor": "stalker‐mods.clan.su (Ferr‐um)",
+  "descripcion": "Es un nuevo mod global a modo de remake del juego S.T.A.L.K.E.R. Shadow of \n      Chernobyl con nuevos gráficos refinados y nuevas tecnologías junto a otras antiguas que \n      fueron recicladas. Se basa en OGSR‐Engine x64. Se hicieron cambios mínimos en la trama, \n      principalmente solo al comienzo del juego.",
+  "fecha_lanzamiento": "2023",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/vanilla_mods/03",
+  "sinopsis": "Eres rescatado luego de un accidente en los camiones de la muerte, tras \n      despertar  has  perdido la  memoria  y  tu  única pista  es  tu  PDA  con  la  misión de  matar  a  \n      un  tal  Strelok. La  búsqueda por  recuperar  la  memoria y encontrar  a Strelok te lleva a \n      recorrer la Zona de exclusión.",
+  "tipo": "VANILLA_MOD",
+  "traduccion": "Kamtek & Danruhard Tenno",
+  "titulo": "STALKER SHADOW OF CHERNOBYL UPDATE 1.4.2",
+  "aclaraciones": [
+    "Nota de traducción: La traducción no está al 100% ya que hay algunos textos que no pude encontrar en los archivos, pero son muy pocos y no afectarán en nada a la jugabilidad."
+  ],
+  "caracteristicas": [
+    "Mejoras graficas usando el motor OGSR.",
+    "Modelos mejorados y reemplazados de objetos, armas, artefactos, etc.",
+    "Modelos mejorados de personajes y animaciones.",
+    "Clima, sonidos y efectos reemplazados y mejorados.",
+    "Cambios en el equilibrio del juego."
+  ],
+  "enlaces": [
+    {
+      "texto": "Tutorial",
+      "url": "https://www.youtube.com/watch?v=0bfwmKB3P4g"
+    },
+    {
+      "texto": "Link al mod",
+      "url": "https://drive.google.com/file/d/1Q-uqb-yZObG-s7d6zDBRq7tCxqsKPRNP/view"
+    },
+    {
+      "texto": "Traducción al español",
+      "url": "https://www.moddb.com/games/stalker/downloads/stalker-soc-update-traduccin-espaol"
+    },
+    {
+      "texto": "Texturas Low Poly(para Pc`s humildes)",
+      "url": "https://drive.google.com/file/d/1ED5iYDeQ6hvrILr3VWCUBJEA0dP1kMb2/view"
+    },
+    {
+      "texto": "Texturas Low Poly Mirror",
+      "url": "https://drive.google.com/file/d/1ZBi9YKEk9pMlzZPUwFror8_Q3CvUELxr/view"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/vanilla_mods/03/1",
+    "SOC/vanilla_mods/03/2",
+    "SOC/vanilla_mods/03/3",
+    "SOC/vanilla_mods/03/4"
+  ],
+  "isStandalone": false,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6ed"
+  },
+  "autor": "Balhash Brothers Team",
+  "descripcion": "Este mod está realizado bajo la base de SOC pero remasterizado en el motor \n        OGSR, segun el autor se busco trasladar la sensacion de Doom 3 por lo que casi no hay npc, \n        salvo en el bar, se considera un mod dificil, ya que enfrentaras ordas de mutantes, pero \n        tendras hasta la posibilidad de transportarte en vehiculo y usarlo como arma.",
+  "fecha_lanzamiento": "28/12/2007",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/04",
+  "sinopsis": "14 de abril de 2006. Después de una explosión en el territorio de la Central Nuclear \n        de Chernóbil, el equipo Delta aterriza en la zona afectada para investigar las causas de este \n        acontecimiento, pero el primer día se pierde la comunicación con ellos y el cuartel general \n        decide enviar a los equipos Alfa y Beta para buscarlos. Un explorador llamado Strelok \n        también fue enviado a la Zona. Durante la operación de búsqueda, \"Beta\" sufre una \n        emboscada y \"Alpha\" desaparece sin dejar rastro. El protagonista se enfrenta a una tarea \n        difícil: encontrar \"Alfa\", llegar a tiempo para ayudar a \"Beta\" y resolver el misterio del \n        equipo \"Delta\".",
+  "tipo": "HISTORIA",
+  "traduccion": "samael229683",
+  "titulo": "Kill Zone 1",
+  "aclaraciones": [
+    "Importante: una vez instalado, para que el juego funcione correctamente, es \n         necesario crear un acceso directo del ejecutable \"xrEngine.exe\", que se \n         encuentra en la carpeta raíz del juego llamada \"bin_x64\" y después agregar el \n         parámetro: (-steam) sin paréntesis, a la ruta de destino del acceso directo",
+    "Nota del traductor: En carpeta raíz del juego llamada \"IMPORTANTE\", \n        encontrarán programas extra e indicaciones para el funcionamiento  del mod.\n        Se tradujo la gran mayoría de objetos, artefactos, armas y diálogos del juego, \n        encontrarás algun que otro detalle en ruso, pero no arruinará la experiencia.",
+    "No desperdicies las balas de plata, las necesitarás para pasar el mod y son \n         muy escasas.",
+    "Esta versión ya cuenta con parche de corrección así que no requiere agregarle \n        nada más.",
+    "Se agregó un parche \"opcional\" para aumentar el tamaño de la fuente de los \n        diálogos del juego, lo podrás encontrar dentro de la carpeta \"Importante\". Para \n        revertir los cambios solo copia el contenido de la carpeta llamada \"copia de \n        seguridad\" y borra el archivo llamado \"talk_16.xml\" que está en la carpeta \"ui\"."
+  ],
+  "caracteristicas": [
+    "Historia totalmente nueva",
+    "Amplia variedad de Zombies.",
+    "Actualizado al motor OGSR.",
+    "Paquete de Armas añadido.",
+    "Se añadió Stalker Two-K",
+    "Gran variedad de mutantes."
+  ],
+  "enlaces": [
+    {
+      "texto": "Parte 1",
+      "url": "https://www.moddb.com/mods/stalker-zona-de-derrota-ogsr-repack-espaol-by-samael229683/downloads/stalker-zona-de-derrota-ogsr-repack-espaol-parte-1"
+    },
+    {
+      "texto": "Parte 2",
+      "url": "https://www.moddb.com/mods/stalker-zona-de-derrota-ogsr-repack-espaol-by-samael229683/downloads/stalker-zona-de-derrota-ogsr-repack-espaol-parte-2"
+    },
+    {
+      "texto": "Parte 3",
+      "url": "https://www.moddb.com/mods/stalker-zona-de-derrota-ogsr-repack-espaol-by-samael229683/downloads/stalker-zona-de-derrota-ogsr-repack-espaol-parte-3"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/04/1",
+    "SOC/historia/04/2",
+    "SOC/historia/04/3",
+    "SOC/historia/04/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6ee"
+  },
+  "autor": "dez0wave",
+  "descripcion": "este Mod puede presentar varios bugs, su trama es interesante y se le suman  \n    muchas  adiciones nuevas  al  gameplay,  desde  personajes, vehículos e  ítems que resultan \n    en una experiencia que se siente nueva sin perder su base en lo clásico ya que es un mod que \n    nace en el año 2008 de los creadores de Lost Alpha.",
+  "fecha_lanzamiento": "2008",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/05",
+  "sinopsis": "Un año después de la historia de Marcado. El teniente militar Priboi Slipchenko, es \n    enviado a la Zona... Una organización secreta, llamada UHSF, fue responsable del incidente \n    del '86. Tenían una base en Dead City pero los mercenarios los aniquilaron a finales de los \n    80. La organización se vino abajo y los últimos miembros vivos desaparecieron hasta hoy.\n    Más de 20 documentos clasificados importantes estaban escondidos en la zona y necesitará \n    encontrarlos para completar el rompecabezas.",
+  "tipo": "HISTORIA",
+  "traduccion": "STALKERHispano",
+  "titulo": "priboi Story",
+  "aclaraciones": [
+    "Aclaración Importante: deben tener cuidado con los códigos de las puertas que aparecen en la pda del juego ya que no son todos correctos, en \n      la carpeta del mod esta un pdf con la guía, hay que buscarlos ahí ya que eso es un arma de doble filo porque algunos códigos abren puertas que \n      todavia no tenian que abrir y rompen la historia."
+  ],
+  "caracteristicas": [
+    "Añadido un ENB personal.",
+    "Estadísticas de artefactos ajustadas.",
+    "Equilibrio de efectos y estadísticas de objetos.",
+    "Modificación de algo de música para mayor inmersión.",
+    "Se reelaboraron las texturas de la interfaz del inventario de artefactos para una versión adaptada."
+  ],
+  "enlaces": [
+    {
+      "texto": "https://drive.google.com/file/d/1GiK0gJeyibKmtYASrRObzAwgnHtE3y5x/view?fbclid=IwAR3wLPq‐8pthy9_FGk5uqUrp3HPMwrlFPnX1VjUjgGrmVzrr1B7pCCVTEco",
+      "url": "Enlace de descarga"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/05/1",
+    "SOC/historia/05/2",
+    "SOC/historia/05/3",
+    "SOC/historia/05/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6ef"
+  },
+  "autor": "Zaurus & Crew",
+  "descripcion": "Es un mod de campaña bastante líneal y llevadero. Es el primero de la \n    trilogía Apocalipsis de los desarrolladores Zaurus & Crew, seguido de S.T.A.L.K.E.R. ‐ Search ‐ DIES IRAE y  S.T.A.L.K.E.R. ‐ Duty ‐ Philosophy of War.",
+  "fecha_lanzamiento": "04/04/2011",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/06",
+  "sinopsis": "Luego de los acontecimientos de Shadow of Chernobyl, Strelok vuelve al \n    Cordón para al fin marcharse de la Zona, pero al llegar se encuentra con la noticia \n    de que han perdió contacto con Yantar, el curioso evento nos pone en la misión de \n    averiguar qué ocurre desembocando en una aventura cargada de misterios. ",
+  "tipo": "HISTORIA",
+  "traduccion": "Cacho Ale",
+  "titulo": "APOCALIPSIS",
+  "aclaraciones": [],
+  "caracteristicas": [
+    "Estable y con buen rendimiento.",
+    "Los enemigos respawnean rápido.",
+    "Los cadáveres se acumulan y no desaparecen.",
+    "Nuevos artefactos.",
+    "Nuevas Armas."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://drive.google.com/file/d/1W8wY30DyM2hyp2T3bWpjuENCKVqXyVF_/view?fbclid=IwAR1b8k1C4ykK1BL4Cdz E96ZDsAJls‐KTz0k0qiMcH_ab_4lSX5oda1i0LK8"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/06/1",
+    "SOC/historia/06/2",
+    "SOC/historia/06/3",
+    "SOC/historia/06/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f0"
+  },
+  "autor": "Zaurus & Crew",
+  "descripcion": "Este excelente mod es parte de los 5 mods desarrollados por Zaurus & Crew y \n    están conectados parcialmente entre sí por algunos personajes de Apocalypse, Duty: \n    Philosophy Of War, Fallen Star ‐ Mercenary's Honor, The Last Stalker.",
+  "fecha_lanzamiento": "2011",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/07",
+  "sinopsis": "Durante el otoño de 2012, la radio de un grupo de búsqueda se estropea y a los  \n    muchachos les quedan pocos suministros. Slaven, un ex soldado francotirador de la Infantería \n    Naval de Ucrania, decide ir solo a la planta de energía y echar un vistazo. Durante su expedición \n    por la central eléctrica suceden cosas extrañas que despertarán su interés.",
+  "tipo": "HISTORIA",
+  "traduccion": "Cachoale",
+  "titulo": "S.T.A.L.K.E.R. search dies irae",
+  "aclaraciones": [],
+  "caracteristicas": [
+    "Los requerimientos son los mismos que en Shadow of Chernobyl.",
+    "La dificultad se puede catalogar como media.",
+    "La configuración se guarda en la misma carpeta del mod, para no crear conflictos con otros mods instalados o con el propio SOC.",
+    "Addons adaptados por Kamtek que mejoran gráficos y el aspecto técnico"
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://www.mediafire.com/file/740ktmcsht1qtxl/Dies_Irae_Spanish_Standalone_Repack.7z/file"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/07/1",
+    "SOC/historia/07/2",
+    "SOC/historia/07/3",
+    "SOC/historia/07/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f1"
+  },
+  "autor": "Zaurus & Crew",
+  "descripcion": "El mod es el tercero de la saga de mods que inician con Apocalipsis de Zaurus' Crew, presenta nuevas \n    misiones y objetivos, así como armas, armaduras y equipos adicionales. Además, los jugadores deben equilibrar su \n    relación con otros personajes, lo que puede afectar la forma en que otros personajes interactúan con ellos en el \n    futuro. A esta edición se le ha integrado un pack de armas, se han corregido Bugs, se adaptó a la última versión de \n    Shadow of Chernobyl para brindar más estabilidad y adicional a ello se agregaron modelos HD para que trabajen \n    con este Mod.",
+  "fecha_lanzamiento": "2012",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/08",
+  "sinopsis": "Nos centramos en el deber de los soldados y su papel en la guerra. La historia se desarrolla en una nueva \n    área del juego, donde los jugadores asumen el papel de un miembro del grupo militar Duty, que debe luchar contra \n    enemigos y tomar decisiones difíciles mientras se enfrenta a las consecuencias de sus acciones.",
+  "tipo": "HISTORIA",
+  "traduccion": "Kamtek",
+  "titulo": "S.T.A.L.K.E.R. DUTY: THE PHOLOSOPHY OF WAR",
+  "aclaraciones": [
+    "Repack realizado por Ramon Retamar, por lo que no necesitas ams que descargar y descomprimir.\n       Los savegames y la configuración se guardan en la misma carpeta del mod, para no crear conflictos con los 3 \n       juegos o con otros mods."
+  ],
+  "caracteristicas": [
+    "Mapas de Call of Pripyat trasladados a Shadow of Chernobyl.",
+    "Añade mejoras gráficas.",
+    "Agrega texturas de alta resolución.",
+    "Nuevos modelos de armas.",
+    "Animaciones mejoradas.",
+    "Añade nuevos ítems."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://drive.google.com/drive/folders/1J6wbAHBWw2JOiczt-FwKeJMP_M_CGTKZ?fbclid=IwAR1lIJrjWHhJGEmkqVmom1b1-A84pCNqAnQNN5GSxvHslOXzmaBeZNnlk5Y"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/08/1",
+    "SOC/historia/08/2",
+    "SOC/historia/08/3",
+    "SOC/historia/08/4"
+  ],
+  "isStandalone": false,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f2"
+  },
+  "autor": "Zaurus' Crew",
+  "descripcion": "este Mod con historia alternativa para Shadow of Chernobyl es el \n    cuarto de la serie creada por Zaurus’ Crew, tiene lugar en varios mapas, puede \n    presentar una dificultad alta, por lo que se recomienda tener a mano una guía, \n    también puede experimentar varios bugs. Como dato adicional, existe una \n    secuela llamada “The Last Stalker” pero se encuentra sin traducir.",
+  "fecha_lanzamiento": "2013",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/09",
+  "sinopsis": "La historia nos pone en la piel de JJ que tiene la tarea de encontrar \n    y entregar un vehículo conducido por un personaje que forma parte de la \n    saga de mods de Zaurus. La misión nos lleva a diferentes lugares y te hace \n    interferir con la GRC, una corporación estadounidense que alquiló parte de \n    la Zona y se estableció allí.",
+  "tipo": "HISTORIA",
+  "traduccion": "Usando google translate",
+  "titulo": "Fallen Star",
+  "aclaraciones": [
+    "En la carpeta \"Fallen Star Language Pack 1.1\" están las \n      traducciones a distintos idiomas, para cambiar el idioma solamente hay que \n      sobrescribir unos archivos en gamedata, muy simple. \n      La configuración, los savegames y las capturas de pantalla se guardan en la \n      misma carpeta del mod."
+  ],
+  "caracteristicas": [
+    "Nuevos mapas",
+    "Añade nuevos personajes",
+    "Nuevas Facciones",
+    "Conducción de vehículos",
+    "Se reelaboraron las texturas de la interfaz del inventario de artefactos para una versión adaptada"
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://drive.google.com/drive/folders/1Nmv_nJ109TrQF-gxLDHLdPrDUdOpo8QV"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/09/1",
+    "SOC/historia/09/2",
+    "SOC/historia/09/3",
+    "SOC/historia/09/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f3"
+  },
+  "autor": "Team FOTO",
+  "descripcion": "este Mod esta basado en Shadow of Chernóbyl y presenta un \n    gameplay que mezcla la nvestigación, aventura y superviviencia. Cuenta con \n    una gran variedad de misiones de historia y secundarias, siendo estas ultimas \n    alrededor de 60, dandote muchas horas de juego si eres completista. Este mod \n    ha sido muy elogiado y muy recomendado por la comunidad.",
+  "fecha_lanzamiento": "13/12/2013",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/10",
+  "sinopsis": "Un fotografo, reportero de guerra, viaja a la Zona “antes del comienzo \n    de los tiempos”, cuando aún no se ha determinado nada, cuando no existen \n    principios conocidos ni leyes establecidas, cuando sólo existe un “Algo” \n    misterioso y desconocido que tendrá ser descubierto, habiendo encontrado \n    cosas misteriosas e inexplicables en el camino, fenómenos y secretos.",
+  "tipo": "HISTORIA",
+  "traduccion": "Manu Flores con ayuda de Kamtek y Qokd",
+  "titulo": "F.O.T.O.G.R.A.F.",
+  "aclaraciones": [
+    "Traducción al español en colaboración con Qokd y ayuda de \n       Kamtek. La mismt se encuentra al 99% excepto noticias dinámicas del PDA, \n       ciertas etiquetas de armas y misiones."
+  ],
+  "caracteristicas": [
+    "Basado en Shadow of Chernobyl.",
+    "Misiones variadas.",
+    "Nuevo sistema de Artefactos.",
+    "Nuevas Mecánicas.",
+    "Añade un paquete de armas.",
+    "Actuaciones de voz.",
+    "Buena optimización"
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://drive.google.com/drive/folders/1QmI5Pxzik7S1La-kj6U_i-JymX1nd8cM"
+    },
+    {
+      "texto": "Enlace de descarga de Traduccion",
+      "url": "https://www.moddb.com/games/stalker/addons/stalker-fotograf-mod-traduccin-al-espaol"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/10/1",
+    "SOC/historia/10/2",
+    "SOC/historia/10/3",
+    "SOC/historia/10/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f4"
+  },
+  "autor": "dez0wave",
+  "descripcion": "este mod nace de versiones previas al lanzamiento del primer S.T.A.L.K.E.R., el \n    equipo desarrollador se dispuso a recopilar información, bluids antiguas, recrear mapas y \n    conceptos que se habían eliminado en la versión final del juego. Lost Alpha es un \n    desarrollo que expande el título  original convirtiéndolo en una nueva experiencia.",
+  "fecha_lanzamiento": "2014",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/11",
+  "sinopsis": "Eres rescatado luego  de  un  accidente  en  los  camiones  de  la muerte,  tras  despertar has  \n    perdido la memoria y tu única pista es tu PDA con la misión de matar a un tal Strelok. La búsqueda por \n    recuperar la memoria y encontrar a Strelok te lleva a recorrer la Zona de exclusión.",
+  "tipo": "HISTORIA",
+  "traduccion": "Keisirius",
+  "titulo": "Lost Alpha Developer's Cut",
+  "aclaraciones": [
+    "extrae la carpeta \"gamedata\" en el directorio  principal del juego y sustituye todos los archivos en caso de que te lo pida.",
+    "La traducción no tiene \"tildes\" ni \"ñ\" alguna, puesto que el juego no lo soporta dado que el inglés y el ruso no las usan, en vez de \"ñ\" puse \"nh\" que la fonética suena similar",
+    "La versión de kamtek es la 0.4 y arregla algunos errores de la traducción de Keisirius.",
+    "esta versión es Lost Alpha Developer’s cut, la cual se desprende del Lost Alpha original. No confundir con Lost Alpha DC Extended ya  que no son exactamente lo mismo."
+  ],
+  "caracteristicas": [
+    "Nuevos Mapas.",
+    "Nuevos trajes, armas y artefactos.",
+    "Gráficos mejorados.",
+    "Sistema de conducción.",
+    "Nuevos mutantes.",
+    "Historia expandida."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace descarga parte 1",
+      "url": "https://www.moddb.com/mods/lost-alpha/downloads/stalker-lost-alpha-v14007-dc-1-of-6"
+    },
+    {
+      "texto": "Enlace descarga parte 2",
+      "url": "https://www.moddb.com/mods/lost-alpha/downloads/stalker-lost-alpha-v14007-dc-2-of-6"
+    },
+    {
+      "texto": "Enlace descarga parte 3",
+      "url": "https://www.moddb.com/mods/lost-alpha/downloads/stalker-lost-alpha-v14007-dc-3-of-6"
+    },
+    {
+      "texto": "Enlace descarga parte 4",
+      "url": "https://www.moddb.com/mods/lost-alpha/downloads/stalker-lost-alpha-v14007-dc-4-of-6"
+    },
+    {
+      "texto": "Enlace descarga parte 5",
+      "url": "https://www.moddb.com/mods/lost-alpha/downloads/stalker-lost-alpha-v14007-dc-5-of-6"
+    },
+    {
+      "texto": "Enlace descarga parte 6",
+      "url": "https://www.moddb.com/mods/lost-alpha/downloads/stalker-lost-alpha-v14007-dc-6-of-6"
+    },
+    {
+      "texto": "Enlace de descarga de traducción",
+      "url": "https://www.moddb.com/mods/lost-alpha/addons/stalker-lost-alpha-extended-traduccin-en-espaol-v14007792"
+    },
+    {
+      "texto": "Enlace descarga parche de correcion",
+      "url": "https://www.moddb.com/downloads/arreglo-de-traduccion-a-espaol-para-stalker-lost-alpha"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/11/1",
+    "SOC/historia/11/2",
+    "SOC/historia/11/3",
+    "SOC/historia/11/4"
+  ],
+  "isStandalone": false,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f5"
+  },
+  "autor": "OGSR Team",
+  "descripcion": "Mod global para Stalker Shadow of Chernobyl destinado a recrear una \n    Zona altamente atmosférica con la mayor calidad posible, estabilidad del juego, \n    jugabilidad y lealtad a los cánones del género Sci‐Fi. OGSE deja la misión principal y \n    las misiones secundarias del SOC del juego base prácticamente intacta, pero se basa \n    en ellas para ampliar la experiencia a la que la saga original nos tenía acostumbrados.",
+  "fecha_lanzamiento": "04/08/2016",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/12",
+  "sinopsis": "Eres rescatado luego de un accidente en los camiones de la muerte, tras \n    despertar has perdido la memoria y tu única pista es tu PDA con la misión de matar a \n    un tal Strelok. La búsqueda por recuperar la memoria y encontrar a Strelok te lleva a \n    recorrer la Zona de exclusión.",
+  "tipo": "HISTORIA",
+  "traduccion": "Manu Flores con ayuda de Qokd y Kamtek",
+  "titulo": "Ogse Old Good Stalker EVOLUTION 0.6.9.3",
+  "aclaraciones": [
+    "Instalar en el siguiente orden hasta la traducción (al instalar un \n       parche siempre abrir y cerrar antes y después el juego hacer lo mismo con la traducción \n       para que se creen las carpetas correspondientes).\n       Por último la traducción al español (copiar o arrastrar el contenido de la traducción en \n       el directorio del mod y darle en reemplazar si a todo) - Traducción al 99%, faltan las \n       noticias dinámicas del PDA."
+  ],
+  "caracteristicas": [
+    "Nuevos Mapas y algunos modificados.",
+    "Nuevas, armas e ítems.",
+    "Se añaden nuevas misiones y personajes.",
+    "Nuevas mecánicas.",
+    "Nuevos mutantes.",
+    "Historia expandida.",
+    "Mejor estabilidad y rendimiento.",
+    "Añade mejoras gráficas."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga parte 1",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-part-1"
+    },
+    {
+      "texto": "Enlace de descarga parte 2",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-part-2"
+    },
+    {
+      "texto": "Enlace de descarga parte 3",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-part-3"
+    },
+    {
+      "texto": "Enlace de descarga parte 4",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-part-4"
+    },
+    {
+      "texto": "Enlace de descarga parte 5",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-part-5"
+    },
+    {
+      "texto": "Enlace de descarga parte 6",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-part-6"
+    },
+    {
+      "texto": "Enlace de parche 2.10",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/ogse-0693-final-20-standalone-patch-210r"
+    },
+    {
+      "texto": "Enlace de parche Fix",
+      "url": "https://www.moddb.com/mods/old-good-stalker-evolution/downloads/stalker-ogse-0693-patch-2-10-revised-fix2"
+    },
+    {
+      "texto": "Enlace de descarga de traducción",
+      "url": "https://www.moddb.com/games/stalker/addons/stalker-old-good-stalker-evolution-0693-en-espaol"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/12/1",
+    "SOC/historia/12/2",
+    "SOC/historia/12/3",
+    "SOC/historia/12/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f6"
+  },
+  "autor": "Blackneed  - AMK Team",
+  "descripcion": "Mod Basado en el motor de Stalker pero presentando un apocalipsis zombi \n    en lugar de lo que acostumbramos, también incluye una serie de mejoras estéticas y \n    correcciones únicas directamente desde los foros Rusos. La historia no es lineal pero \n    presenta un secreto que iremos revelando mientras avanzamos. A medida que \n    progresemos, habrá personajes que nos darán misiones impulsándonos a distintas \n    ubicaciones.",
+  "fecha_lanzamiento": "2018",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/13",
+  "sinopsis": "El joven Sergey viaja desde la ciudad al campo para despejar la mente, luego \n    de un par de semanas, 2 sujetos extraños invaden su campamento y ante la hostilidad, \n    Sergey se defiende utilizando un hacha. El violento episodio lo impulsa a correr hacia la \n    granja más cercana y desde ahí tendrá que sobrevivir recorriendo varios lugares mientras \n    se enfrenta ante una amenaza zombis y los secretos tras este desastre.",
+  "tipo": "HISTORIA",
+  "traduccion": "Kamtek",
+  "titulo": "Left To Die Enhaced Edition",
+  "aclaraciones": [
+    "Para instalar deben presionar en el ejecutable (Left To Die.exe) y al abrirse la ventana \n      presionar \"Extract”. Ahora tendrán que esperar y una vez que finalice la extracción \n      (Requiere alrededor de 10GB de espacio) deben buscar el ejecutable del Mod y crear \n      un acceso directo.",
+    "Este Mod consume bastantes recursos y no es posible ejecutarlo en iluminación estática."
+  ],
+  "caracteristicas": [
+    "Nuevos Mapas.",
+    "Nuevas armas e ítem pero los mismos son escasos.",
+    "Se añaden como enemigos Zombies, animales, militares y supervivientes.",
+    "Se refinan mecánicas conocidas como sed, hambre y sueño.",
+    "Requisitos por encima de Shadow of Chernobyl."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga de la traducción",
+      "url": "https://www.moddb.com/games/stalker/downloads/left-to-die-enhaced-edition-espaol"
+    },
+    {
+      "texto": "Enlace del setup",
+      "url": "https://drive.google.com/file/d/1FwyE1-fXtL58HWZcQDOB_0P518jYQZ8Z/view"
+    },
+    {
+      "texto": "Enlace de descarga parte 1",
+      "url": "https://drive.google.com/file/d/1M5DAE06s5y8J_V1NY-mNzi6X9JPpBUkt/view"
+    },
+    {
+      "texto": "Enlace de descarga parte 2",
+      "url": "https://drive.google.com/file/d/1Bg5FTRevWRd2K1qDi6aswgHiVqvVzssC/view"
+    },
+    {
+      "texto": "Enlace alternativo de descarga",
+      "url": "https://drive.google.com/drive/folders/1OOBepgjYBZhwlhd8hHeFb8dEpSyy5o2m?fbclid=IwAR0K6B9X11K6jiA2Bt"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/13/1",
+    "SOC/historia/13/2",
+    "SOC/historia/13/3",
+    "SOC/historia/13/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68a3caaf22c838541969c6f7"
+  },
+  "autor": "Zekhan",
+  "descripcion": "Mod muy famoso basado libremente en el libro Roadside Piknic, el \n    mismo suele corromper las partidas, a pesar de ese defecto, el mod añade mucho \n    contenido interesante por lo cual vale la pena probarlo.",
+  "fecha_lanzamiento": "08/09/2018",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/14",
+  "sinopsis": "Un Stalker novato debe saldar varias cuentas por lo que decide intentar \n    ingresar a la Zona burlando el perímetro, pero es capturado por los militares y \n    encarcelado. Ahora deberá pensar un plan de escape y lograr su objetivo en la Zona.",
+  "tipo": "HISTORIA",
+  "traduccion": "Google Translate",
+  "titulo": "Goldsphere Completion",
+  "aclaraciones": [
+    "La traducción se descomprime y se copian y pegan los archivos en gamedata, solo revisa las rutas de instalación."
+  ],
+  "caracteristicas": [
+    "Añade un sistema de reputación.",
+    "Agrega un elaborado sistema de supervivencia (desde provisiones hasta cocina).",
+    "La baja salud afecta las acciones del jugador.",
+    "Permite llevar compañeros.",
+    "Se pueden reparar autos y obtener partes.",
+    "Nuevos artefactos."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://disk.yandex.ru/d/8ruKmVoz3LYVns?fbclid=IwAR2nAHuc0VBZfm8MlyVRE2THMifg3ZE1JNhTB_SwxEKS7rnu 2Yq4YX8yjEc"
+    },
+    {
+      "texto": "Enlace de descarga de traducción",
+      "url": "http://www.mediafire.com/file/3cjkedfl04k110a/Golden+Ball++Completion+Language+Pack+1.0.zip?fbclid=IwAR2m4VrlM2RL91jOD4A3fJC3MlUNHUwX6Sd_MRbhPD6‐1SynA37VQZVBOnI"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/14/1",
+    "SOC/historia/14/2",
+    "SOC/historia/14/3",
+    "SOC/historia/14/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": []
+},
+{
+  "_id": {
+    "$oid": "68baea46eb0c401af10aeecb"
+  },
+  "autor": "Ferveks",
+  "descripcion": "Repack con traducción al español del mod ruso llamado 'Juego de Almas: Inicio', basado en el juego de la saga principal S.T.A.L.K.E.R. Shadow Of Chernobyl, con mejoras graficas implementadas en Autum Aurora 2.05 + Absolute Nature-Atmosfear.",
+  "fecha_lanzamiento": "2/7/2017",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/12_2",
+  "sinopsis": "Tu vida es tan aburrida que no hay un solo detalle que incluso el oyente más atento pueda agarrar. No eres absolutamente nadie. Solo largas noches perturban los pensamientos y recuerdos ... Que te pertenecen como si no fuera a ti. Un accidente en la Gran Tierra, y ahora ya estás temblando en un camión que te lleva a ti y a otro tipo que es muy joven a la Zona. Se dan la mano el uno con el otro. 'Sokolov' - parece. Y tú... El silencio se retrasa.",
+  "tipo": "HISTORIA",
+  "traduccion": "Samael229683",
+  "titulo": "Juego de Almas: Inicio",
+  "aclaraciones": [
+    "Revisar la carpeta raíz del juego llamada 'IMPORTANTE', donde encontrarás programas extras e indicaciones para el funcionamiento del mod.",
+    "Se Tradujeron la gran mayoría de objetos, artefactos, armas y diálogos del juego, solo encontrarás alguno que otro detalle en ruso, pero nada que arruine la experiencia.",
+    "La mayoría de las misiones principales poseen distintas ramificaciones, piensa bien a la hora de elegir, ya que una mala elección puede desencadenar en resultados nefastos para los personajes. Todo es cuestión de experimentar",
+    "Esta versión ya cuenta con parche de corrección así que no requiere agregarle nada.",
+    "Se agregó un parche 'opcional' llamado 'Autumn Aurora ENB 2.1', el cual aumenta de forma significativa la ambientación e inmersión grafica del juego, a cambio de un aumento en el consumo de recursos de tu pc. Lo podrás encontrar dentro de la carpeta 'IMPORTANTE', junto con las debidas indicaciones del funcionamiento, instalación y desinstalación del mismo.",
+    "Si encuentran algún error favor, contactar a mi correo: samael229683@gmail.com o a la caja de comentarios."
+  ],
+  "caracteristicas": [
+    "Trama totalmente nueva.",
+    "Misiones con ramificación.",
+    "Gran cantidad de animales en las ubicaciones.",
+    "Añade Autum Aurora 2.05 + Absolute Nature-Atmosfear. ",
+    "Sistema de creación de objetos.",
+    "Nueva Banda sonora."
+  ],
+  "enlaces": [
+    {
+      "texto": "Enlace de descarga",
+      "url": "https://www.moddb.com/mods/stalker-igra-dush-nachaloaa2-repack-espaol-by-samael229683"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/12_1/1",
+    "SOC/historia/12_1/2",
+    "SOC/historia/12_1/3",
+    "SOC/historia/12_1/4"
+  ],
+  "isStandalone": true,
+  "pasosInstalacion": [
+    "DESCARGAR TODAS PARTES DEL REPACK.",
+    "DESCOMPRIMIR LOS ARCHIVOS CON WINRAR Ó 7ZIP.",
+    "EJECUTAR EL ARCHIVO 'SETUP.EXE' PARA INSTALAR EL REPACK.",
+    "UNA VEZ INSTALADO EL JUEGO, IR A LA CARPETA RAIZ LLAMADA 'bin' y ENVIAR ACCESO DIRECTO DEL EJECUTABLE AL ESCRITORIO.",
+    "EJECUTAR COMO ADMINISTRADOR Y JUGAR ;3"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68baf48ceb0c401af10aeecd"
+  },
+  "autor": "I am dead",
+  "descripcion": "es una precuela de 'S.T.A.L.K.E.R.: Shadow of Chernobyl'. Presenta una trama completamente nueva que se entrelaza con las misiones conocidas de 'S.T.A.L.K.E.R.: Clear Sky', y que explora más profundamente la razón de la aparición del personaje principal en la Zona.",
+  "fecha_lanzamiento": "2019",
+  "juego": "SHADOW_OF_CHERNOBYL",
+  "portadaPath": "SOC/historia/15",
+  "sinopsis": "Eres un joven Strelok quien busca a su hermano mayor 'Capitán', quien 2 años y medio antes se adentró en La Zona para ganar dinero recolectando artefactos y descubrir también sus secretos, abriéndose camino y llegando hasta lo más profundo junto a un grupo de stalkers, de los cuales no todos sobreviven a esa dura y peligrosa travesía.",
+  "tipo": "HISTORIA",
+  "traduccion": "Kamtek",
+  "titulo": "SECRET TRAILS",
+  "aclaraciones": [
+    "La traducción aun requerirá futuras revisiones, pero se ha hecho lo máximo para que sea 100% lógica y entendible (Acotar que esto es trabajo de una sola persona y eso incluye los Addons) tras más de medio año de trabajo en total y contando.",
+    "Adicionalmente se han realizado trabajos adaptando y creando algunos complementos esteticos para el Mod."
+  ],
+  "caracteristicas": [
+    "Geometría de mapas mejorados (Tomados de Echo of chernobyl).",
+    "Modelos y visuales de NPC y mutantes re trabajados (extraídos de Gamebanana y Moddb).",
+    "Diversos packs de texturas y vegetación.",
+    "Sombreadores mejorados.",
+    "Pack de armas con recursos de NLC, Narodnaya Solyanka, Arsenal Weapon Overhaul y más.",
+    "HUD Rehecho.",
+    "Misceláneos recreados del Menú, interfaz, sonidos, etc",
+    "Complementos climáticos de 'Echo of chernobyl'"
+  ],
+  "enlaces": [
+    {
+      "texto": "Descarga del Repack de Ramon Retamar",
+      "url": "https://www.youtube.com/watch?v=z7XnkG9VcgQ"
+    },
+    {
+      "texto": "Enlace de Descarga",
+      "url": "https://drive.google.com/drive/folders/1COgxVnVmsE9cIYQwaAYhvcdCGgj3HC-O?"
+    }
+  ],
+  "imagenesGaleria": [
+    "SOC/historia/15/1",
+    "SOC/historia/15/2",
+    "SOC/historia/15/3",
+    "SOC/historia/15/4"
+  ],
+  "isStandalone": false,
+  "pasosInstalacion": []
+}]
