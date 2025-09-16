@@ -6,6 +6,8 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { JuegoEnum, TipoEnum } from 'generated/prisma';
+import { ObjectId } from 'mongodb';
+import { PubsubService } from 'src/common/pubsub/pubusb.service';
 import { PrismaService } from 'src/prisma/prisma.service';
 import {
   ModificationData,
@@ -15,14 +17,14 @@ import {
   FindModificationById,
   FindModificationsParams,
 } from './dto/modifications.input';
-import { ObjectId } from 'mongodb';
 
 @Injectable()
 export class ModificationV2Service {
-  private readonly logger = new Logger(ModificationV2Service.name, {
-    timestamp: true,
-  });
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly logger = new Logger(ModificationV2Service.name, {timestamp: true,}),
+    private readonly pubsub = new PubsubService()
+  ) {}
 
   async getModifications(
     params: FindModificationsParams,

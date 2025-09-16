@@ -1,5 +1,5 @@
 import { Args, Query, Resolver, Subscription } from '@nestjs/graphql';
-import { PubSub } from 'graphql-subscriptions';
+import { PubsubService } from 'src/common/pubsub/pubusb.service';
 import {
   ModificationData,
   ModificationsListOutput,
@@ -11,11 +11,12 @@ import {
 } from './dto/modifications.input';
 import { ModificationV2Service } from './modification-v2.service';
 
-const pubSub = new PubSub();
-
 @Resolver()
 export class ModificationV2Resolver {
-  constructor(private readonly modificationService: ModificationV2Service) {}
+  constructor(
+    private readonly modificationService: ModificationV2Service,
+    private readonly pubsub = new PubsubService(),
+  ) {}
 
   @Query(() => ModificationsListOutput)
   async getModifications(
@@ -23,11 +24,6 @@ export class ModificationV2Resolver {
     params: FindModificationsParams,
   ) {
     const modifications = this.modificationService.getModifications(params);
-    await pubSub.publish('notification', {
-      notification: {
-        content: 'Obteniendo modificaciones...',
-      },
-    });
     return modifications;
   }
 
@@ -43,6 +39,6 @@ export class ModificationV2Resolver {
     name: 'notification',
   })
   suscribeToNotification() {
-    return pubSub.asyncIterableIterator('notification');
+    return this.pubsub.asyncIterableIterator('notification');
   }
 }
