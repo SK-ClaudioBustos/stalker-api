@@ -20,10 +20,13 @@ import {
 
 @Injectable()
 export class ModificationV2Service {
+  private readonly logger = new Logger(ModificationV2Service.name, {
+    timestamp: true,
+  });
+
   constructor(
     private readonly prisma: PrismaService,
-    private readonly logger = new Logger(ModificationV2Service.name, {timestamp: true,}),
-    private readonly pubsub = new PubsubService()
+    private readonly pubsub: PubsubService,
   ) {}
 
   async getModifications(
@@ -50,7 +53,7 @@ export class ModificationV2Service {
         where: {
           tipo,
           juego,
-          isStandalone
+          isStandalone,
         },
         select: {
           id: true,

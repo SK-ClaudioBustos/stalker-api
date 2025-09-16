@@ -3,9 +3,8 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { GraphQLModule } from '@nestjs/graphql';
 import { join } from 'path';
+import { PubsubModule } from './common/pubsub/pubsub.module';
 import { ModificationV2Module } from './modification-v2/modification-v2.module';
-import { ModificationV2Resolver } from './modification-v2/modification-v2.resolver';
-import { ModificationV2Service } from './modification-v2/modification-v2.service';
 import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
@@ -25,8 +24,9 @@ import { PrismaModule } from './prisma/prisma.module';
       envFilePath: '.env',
     }),
     ModificationV2Module,
+    PubsubModule,
   ],
   controllers: [],
-  providers: [ModificationV2Resolver, ModificationV2Service],
+  providers: [],
 })
 export class AppModule {}

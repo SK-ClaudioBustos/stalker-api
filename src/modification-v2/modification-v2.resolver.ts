@@ -15,7 +15,7 @@ import { ModificationV2Service } from './modification-v2.service';
 export class ModificationV2Resolver {
   constructor(
     private readonly modificationService: ModificationV2Service,
-    private readonly pubsub = new PubsubService(),
+    private readonly pubsub: PubsubService,
   ) {}
 
   @Query(() => ModificationsListOutput)
